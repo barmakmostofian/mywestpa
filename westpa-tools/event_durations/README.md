@@ -7,5 +7,5 @@ The two scripts work by extracting all relevant trajectory traces and subsequent
 **Example**<br />
 <em>python GetTraces.py &nbsp;&nbsp; 800 &nbsp;&nbsp; 1200 &nbsp;&nbsp; 1</em><br />
 (This uses 'w_trace' to write out traces of all events that end in a bin with 'pcoord < 1' between iteration number 800 and 1200.)<br />
-<em>python GetEventTimes.py &nbsp;&nbsp; 800 &nbsp;&nbsp; 1200 &nbsp;&nbsp; 1 &nbsp;&nbsp; 4 &nbsp;&nbsp; 0.01</em><br />
+<em>python GetEvents.py &nbsp;&nbsp; 800 &nbsp;&nbsp; 1200 &nbsp;&nbsp; 1 &nbsp;&nbsp; 4 &nbsp;&nbsp; 0.01</em><br />
 (This interrogates the files created above with respect to events starting at 'pcoord >= 4' and determines the actual time by setting the iterative resampling time to 0.01.)
